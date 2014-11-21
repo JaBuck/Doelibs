@@ -15,17 +15,17 @@
   	    android:layout_height="wrap_content"
         android:id="@+id/searchbox"
         android:inputType="text"
-        android:hint="@string/search_hint" />
+        android:hint="@string/hint_search" />
     
     <Button
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
-        android:text="S" />
+        android:text="@string/button_search" />
     
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="My Reservations"
+        android:text="@string/label_myLoanables"
          />
     
     <ListView 
@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="My Borrowings"
+        android:text="@string/label_myBorrowings"
          />
     
     <ListView 
@@ -47,12 +47,12 @@
      <Button
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
-        android:text="Hand Out" />
+        android:text="@string/button_handout" />
      
       <Button
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
-        android:text="Return Book" />
+        android:text="@string/button_return" />
     
         
     

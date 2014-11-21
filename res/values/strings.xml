@@ -6,6 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <!-- start page -->
     <string name="hint_search">Search Title, Author, ISBN...</string>
+    <string name="button_search">Search</string>
     <string name="label_myBorrowings">My Borrowings</string>
     <string name="label_myLoanables">My Loanables</string>
     <string name="button_handout">Hand out</string>
@@ -19,8 +20,8 @@
     <string name="notifications">Notifications</string>
     <string name="label_borrowingExpired">Borrowing expired!</string>
     <string name="text_borrowingExpired">The following borrowing has expired. Please return it as soon as possible!</string>
-    <string name="label_titleAvaliable">Title avaliable!</string>
-    <string name="text_titleAvaliable">The following reservation is now avaliable to pick up:</string>
+    <string name="label_titleAvaliable">Title available!</string>
+    <string name="text_titleAvaliable">The following reservation is now available to pick up:</string>
     <string name="label_pendingReg">Pending registration!</string>
     <string name="text_pendingReg">There are pending registrations for you to handle. Please log in to the DOELIBS web application.</string>
     <!-- search result -->
@@ -44,7 +45,7 @@
     <string name="button_cancel">Cancel</string>
     <!-- hand out -->
     <string name="handout">Hand Out</string>
-    <string name="spinner_handout">Borrower's name</string>
+    <string name="spinner_handout">Borrower\'s name</string>
     <string name="button_findRes">Find reservation</string>
     <string name="label_pending">Pending reservations</string>
     <string name="button_confirmLoan">Confirm loan</string>
