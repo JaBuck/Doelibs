@@ -2,8 +2,72 @@
 <resources>
 
     <string name="app_name">Doelibs</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="search_hint">Search for title</string>
-
+    <string name="hello_world">Hello world!</string>
+    <!-- start page -->
+    <string name="hint_search">Search Title, Author, ISBN...</string>
+    <string name="label_myBorrowings">My Borrowings</string>
+    <string name="label_myLoanables">My Loanables</string>
+    <string name="button_handout">Hand out</string>
+    <string name="button_return">Return book</string>
+    <!-- settings  -->
+    <string name="settings">Settings</string>
+    <string name="checkbox_push">Allow push notifications</string>
+    <string name="button_logout">Log out</string>
+    <string name="button_main">Back to main</string>
+    <!-- notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="label_borrowingExpired">Borrowing expired!</string>
+    <string name="text_borrowingExpired">The following borrowing has expired. Please return it as soon as possible!</string>
+    <string name="label_titleAvaliable">Title avaliable!</string>
+    <string name="text_titleAvaliable">The following reservation is now avaliable to pick up:</string>
+    <string name="label_pendingReg">Pending registration!</string>
+    <string name="text_pendingReg">There are pending registrations for you to handle. Please log in to the DOELIBS web application.</string>
+    <!-- search result -->
+    <string name="searchresult">Search Result</string>
+    <!-- details  -->
+    <string name="details">Details</string>
+    <string name="label_loanables">Loanables</string>
+    <string name="lable_reservations">Reservations</string>
+    <string name="button_reserve">Reserve</string>
+    <!-- quick scan -->
+    <string name="quickscan">Quick Scan</string>
+    <string name="label_scanresult">Scan result</string>
+    <string name="label_returningBook">Returning a book</string>
+    <string name="text_returningBook"> You are returning a book. Please place this loanable at the location below and click the return button!</string>
+    <string name="button_returnBook">Return book</string>
+    <string name="label_borrowingBook">Borrowing a book</string>
+    <string name="text_borrowingBook">You are about to borrow a book. Click the borrow button below to register a loan of this loanable. You can always see your borrowings on the startpage.</string>
+    <string name="button_borrow">Borrow</string>
+    <string name="label_stop">STOP!</string>
+    <string name="text_stop">This loanable is reserved and you are not allowed to borrow it at this time. If you would like to make a reservation for this title, click Reserve below.</string>
+    <string name="button_cancel">Cancel</string>
+    <!-- hand out -->
+    <string name="handout">Hand Out</string>
+    <string name="spinner_handout">Borrower's name</string>
+    <string name="button_findRes">Find reservation</string>
+    <string name="label_pending">Pending reservations</string>
+    <string name="button_confirmLoan">Confirm loan</string>
+    <!-- return book -->
+    <string name="returnbook">Return Book</string>
+    <string name="hint_tagnumber">Enter tag number</string>
+    <string name="button_findLoan">Find loan</string>
+    <!-- error -->
+    <string name="error">ERROR</string>
+    <string name="text_error">An error occurred! If the error is repeated your request might not be handled by the DOELIBS mobile app. Please try using the DOELIBS web site instead.</string>
+    <string name="button_exit">Exit DOELIBS</string>
+    <!-- login -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="checkbox_remember">Remember me</string>
+    <string name="button_login">Log in</string>
+    <string name="button_register">Register</string>
+    <!-- register -->
+    <string name="spinner_category">I am a...</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="spinner_ref">Referencing staff mbr</string>
+    <string name="hint_confirm">Confirm Password</string>
+    <string name="text_pending">Thank you for appying for a registration to DOELIBS. Please check your email for a confirmation link and welcome back when your registration is confirmed by the selected staff member.</string>
+    <!-- toasts and errors -->
 </resources>
