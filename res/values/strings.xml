@@ -71,4 +71,8 @@
     <string name="hint_confirm">Confirm Password</string>
     <string name="text_pending">Thank you for appying for a registration to DOELIBS. Please check your email for a confirmation link and welcome back when your registration is confirmed by the selected staff member.</string>
     <!-- toasts and errors -->
+    
+    <!-- icons and actions -->
+    <string name="action_scan">Quick scan</string>
+
 </resources>
