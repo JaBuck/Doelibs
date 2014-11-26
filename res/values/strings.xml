@@ -6,7 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <!-- start page -->
     <string name="hint_search">Search Title, Author, ISBN...</string>
-    <string name="button_search">Search</string>
+    <string name="button_search">SearchTEST22</string>
     <string name="label_myBorrowings">My Borrowings</string>
     <string name="label_myLoanables">My Loanables</string>
     <string name="button_handout">Hand out</string>
