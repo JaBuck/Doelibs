@@ -4,9 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -20,16 +26,33 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         lv = (ListView) findViewById(R.id.MyLoanablesList);
-
-        List<String> list = new ArrayList<String>();
-        list.add("Alice");
-        list.add("C-Sharp");
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+        
+        Title[] lista = {
+        		new Title("Alice", "Wonderland", "134534546"),
+        		new Title("Alice2", "Wonderland", "356546662"),
+        		new Title("Alice3", "Wonderland", "565645566"),
+        } ;
+        
+        ArrayAdapter<Title> arrayAdapter = new ArrayAdapter<Title>(
                 this, 
-                android.R.layout.simple_list_item_1,
-                list );
+                android.R.layout.simple_expandable_list_item_1,
+                lista );
 
         lv.setAdapter(arrayAdapter); 
+        
+        lv.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+					long arg3) {
+				Intent details = new Intent(getApplicationContext(), Details.class);
+		    	Title t = (Title)(lv.getItemAtPosition(arg2));
+		    	details.putExtra("titleName", t.name);
+				startActivity(details);
+				
+			}
+        	
+		});
     }
 
 
@@ -54,6 +77,11 @@ public class MainActivity extends Activity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+    
+    public void SearchDetails(View v){
+    	Intent details = new Intent(this, Details.class);
+    	startActivity(details);
     }
    
 

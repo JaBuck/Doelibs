@@ -20,7 +20,8 @@
     <Button
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
-        android:text="@string/button_search" />
+        android:text="@string/button_search"
+        android:onClick="SearchDetails" />
     
     <TextView
         android:layout_width="fill_parent"
