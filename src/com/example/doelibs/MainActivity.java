@@ -1,17 +1,35 @@
-package com.example.doelibs;
+	package com.example.doelibs;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 
 public class MainActivity extends Activity {
 
+	private ListView lv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        lv = (ListView) findViewById(R.id.MyLoanablesList);
+
+        List<String> list = new ArrayList<String>();
+        list.add("Alice");
+        list.add("C-Sharp");
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+                this, 
+                android.R.layout.simple_list_item_1,
+                list );
+
+        lv.setAdapter(arrayAdapter); 
     }
 
 
@@ -37,5 +55,6 @@ public class MainActivity extends Activity {
                 return super.onOptionsItemSelected(item);
         }
     }
+   
 
 }
