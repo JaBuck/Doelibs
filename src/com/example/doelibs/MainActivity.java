@@ -14,6 +14,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 
 
@@ -80,8 +82,17 @@ public class MainActivity extends Activity {
     }
     
     public void SearchDetails(View v){
+    	
     	Intent details = new Intent(this, Details.class);
+    	details.putExtra("titleName", "test");
     	startActivity(details);
+    }
+    
+    // Temp to test go to login view
+    public void TempLogin(View v){
+    	
+    	Intent temp = new Intent(this, Login.class);
+    	startActivity(temp);
     }
    
 

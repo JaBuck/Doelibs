@@ -4,30 +4,19 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
-public class Details extends Activity {
+public class Login extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_details);
-		
-		Bundle extras = getIntent().getExtras();
-		if(extras.getString("titleName") != null){
-			final TextView tv = (TextView) findViewById(R.id.TitleId);
-			tv.setText(extras.getString("titleName"));
-		}
-		else if (extras.getString("searchString") != null){
-			final TextView tv = (TextView) findViewById(R.id.TitleId);
-			tv.setText(extras.getString("searchString"));
-		}
+		setContentView(R.layout.activity_login);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.details, menu);
+		getMenuInflater().inflate(R.menu.login, menu);
 		return true;
 	}
 

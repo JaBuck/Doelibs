@@ -21,7 +21,8 @@
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
         android:text="@string/button_search"
-        android:onClick="SearchDetails" />
+        android:id="@+id/buttonSearch" 
+        android:onClick="SearchDetails"/>
     
     <TextView
         android:layout_width="fill_parent"
@@ -49,7 +50,8 @@
      <Button
         android:layout_width="fill_parent" 
         android:layout_height="wrap_content"
-        android:text="@string/button_handout" />
+        android:text="@string/button_handout"
+        android:onClick="TestLogin" />
      
       <Button
         android:layout_width="fill_parent" 

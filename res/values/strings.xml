@@ -76,5 +76,6 @@
     <!-- icons and actions -->
     <string name="action_scan">Quick scan</string>
     <string name="title_activity_details">Details</string>
+    <string name="title_activity_login">Login</string>
 
 </resources>
