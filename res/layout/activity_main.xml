@@ -46,18 +46,18 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         />
-    
-     <Button
-        android:layout_width="fill_parent" 
-        android:layout_height="wrap_content"
-        android:text="@string/button_handout"
-        android:onClick="TestLogin" />
-     
-      <Button
-        android:layout_width="fill_parent" 
-        android:layout_height="wrap_content"
-        android:text="@string/button_return" />
-    
+
+	     <Button
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_handout"
+	        android:onClick="TestLogin" />
+	     
+	      <Button
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_return" />
+
         
     
 </LinearLayout>
